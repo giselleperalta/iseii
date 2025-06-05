@@ -32,6 +32,7 @@ main{
     gap: 20px;
     padding: 20px;
     min-height: 100dvh;
+    flex: 1;
 }
 
 .contenedor {
