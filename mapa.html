@@ -1,0 +1,112 @@
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UACM CASA LIBERTAD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&amp;display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', Arial, sans-serif;
+        background: linear-gradient(
+          135deg, 
+          #c46e1f 0%, 
+          #c9e087 20%, 
+          #12e62e 40%,
+          #11b342 60%,
+          #64d143 80%,
+          #09835a 100%
+        );
+        background-size: 400% 400%;
+        animation: gradient 8s ease infinite;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      
+      .container {
+        background: rgba(255,255,255,0.92);
+        border-radius: 18px;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+        padding: 2.5rem 2rem 2rem 2rem;
+        width: 80vw;
+        max-width: 1200px;
+        min-width: 300px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        backdrop-filter: blur(8px);
+      }
+      
+      h1 {
+        font-size: 2.5rem;
+        color: transparent;
+        margin-bottom: 1.5rem;
+        letter-spacing: 1px;
+        text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.425);
+        font-weight: 700;
+      }
+      
+      .map-embed {
+        width: 100%;
+        height: 60vh;
+        min-height: 250px;
+        border: none;
+        border-radius: 14px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        margin-top: 0.5rem;
+      }
+      
+      @media (max-width: 900px) {
+        .container {
+          width: 95vw;
+          padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+        }
+        h1 {
+          font-size: 1.5rem;
+        }
+        .map-embed {
+          height: 40vh;
+        }
+      }
+      
+      @media (max-width: 600px) {
+        .container {
+          width: 99vw;
+          min-width: unset;
+          padding: 1rem 0.2rem 1rem 0.2rem;
+        }
+        .map-embed {
+          height: 200px;
+        }
+      }
+      a{
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.425);
+        color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>UACM CASA LIBERTAD</h1>
+      <iframe class="map-embed" src="https://www.google.com/maps?q=UACM+Casa+Libertad&amp;output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación UACM Casa Libertad"></iframe>
+      <h3><a href="index.html">Volver al inicio</a></h3>
+    </div>
+  
+  </body></html>

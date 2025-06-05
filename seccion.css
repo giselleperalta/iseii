@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+        135deg, 
+        #c46e1f 0%, 
+        #c9e087 20%, 
+        #12e62e 40%,
+        #11b342 60%,
+        #64d143 80%,
+        #09835a 100%
+      );
+      background-size: 400% 400%;
+      animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  } 
+
+header, footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #33691e;
+    color: white;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+}
+
+.grid-container {
+    display: grid;
+    grid-column:span;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.galeria{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-size: 2rem;
+    background: linear-gradient(90deg, #1b6307, #d5e44d, #d8d892);
+    -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        letter-spacing: 1px;
+  }
+
+.video{
+    text-align: center;
+}
+
+img{
+    border-radius: 15px; 
+    padding: 9px;
+}
+
+
