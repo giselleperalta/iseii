@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -93,7 +94,7 @@ footer{
     bottom: 0;
 }
 footer nav a {
-    font-size: 2em; /* make the social media icons larger */
+    font-size: 2em;
     margin: 0 10px;
     color: white;
     transition: color 0.3s;
