@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -10,19 +9,13 @@ body {
     animation: backgroundShift 12s infinite alternate;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-
 @keyframes backgroundShift {
     from { background-position: 0% 0%; }
     to { background-position: 100% 100%; }
 }
 
 header, footer {
-    width: 110%;
+    width: 100%;
     min-height: 60px;
     height: auto;
     padding: 8px 0;
@@ -38,12 +31,11 @@ main{
     gap: 20px;
     padding: 20px;
     min-height: 100dvh;
-    flex: 1;
 }
 
 .contenedor {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     margin: 10px auto;
     display: grid;
     gap: 20px;
