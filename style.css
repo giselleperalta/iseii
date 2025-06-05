@@ -96,6 +96,10 @@ ul, p{
     font-size: smaller;
 }
 
+footer{
+    padding: 1.5rem 1rem;
+    text-align: center}
+
 footer nav a {
     font-size: 2em; /* make the social media icons larger */
     margin: 0 10px;
